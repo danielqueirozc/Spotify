@@ -1,17 +1,8 @@
-/*
-* 
-* @author Jamilton Damasceno
-*/
-
 /*layout
 ---------------------------*/
 html, body, #home{
 	height: 100%;
 	overflow-x: hidden;
-}
-
-#home{
-
 }
 
 body{
@@ -48,7 +39,7 @@ nav.nav-transparente{
 /*capa
 ------------------------*/
 .capa{
- text-align: center;
+	text-align: center;
 }
 
 .btn-custom{
@@ -188,13 +179,15 @@ h3{
 	.btn-custom{
 		margin: 10px 15px;
 	}
- }
+}
 
 /* Medium devices (tablets, less than 992px)*/
 @media (min-width:768px) and (max-width: 991.98px) { 
 	h1{
 		font-size: 4em;
 	}
+
+
 }
 
 /* Large devices (desktops, less than 1200px)*/
@@ -202,7 +195,7 @@ h3{
 	h1{
 		font-size: 5em;
 	}
- }
+}
 
 /* Extra large devices (large desktops)*/
 // No media query since the extra-large breakpoint has no upper bound on its width
